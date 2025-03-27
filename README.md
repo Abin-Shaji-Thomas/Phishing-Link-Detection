@@ -15,19 +15,22 @@
 
  **📦 Installation**  
 1. **Clone the repository**  
-   bash
+   ```
    git clone https://github.com/Abin-Shaji-Thomas/phishing-url-detector.git
    cd phishing-url-detector
+   ```
    
 2. **Install dependencies**  
-   bash
+   ```
    pip install -r requirements.txt
+   ```
    
 3. **Run the Flask app**  
-   bash
+   ```
    python app.py
+   ```
    
-4. Open your browser and visit **http://127.0.0.1:5000/**  
+4. Open your browser and visit ```**http://127.0.0.1:5000/**```  
 
  **📝 How It Works**  
 The system checks URLs based on:  
