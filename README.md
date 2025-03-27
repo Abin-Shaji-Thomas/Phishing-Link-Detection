@@ -40,6 +40,5 @@ The system checks URLs based on:
  **`📜 License`**  
 **`This project is open-source and available under the [MIT License](LICENSE).`**  
 
----
-
 **`Give it a ⭐ on GitHub if you like this project! 🚀`**  
+```
