@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing URL Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Phishing URL Detector</h1>
+        <form method="POST">
+            <input type="text" name="url" placeholder="Enter URL" required>
+            <button type="submit">Check</button>
+        </form>
+        {% if result is not none %}
+            <div class="result">
+                <h2>Result:</h2>
+                {% if result == "Safe" %}
+                    <p class="safe">✅ The URL is Safe</p>
+                {% else %}
+                    <p class="danger">⚠️ Suspicious URL</p>
+                    <ul>
+                        {% for issue in result %}
+                            <li>❌ {{ issue }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
