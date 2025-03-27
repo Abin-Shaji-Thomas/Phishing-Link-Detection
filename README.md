@@ -30,7 +30,7 @@
    python app.py
    ```
    
-4. Open your browser and visit ```**http://127.0.0.1:5000/**```  
+4. Open your browser and visit ```http://127.0.0.1:5000/```  
 
  **📝 How It Works**  
 The system checks URLs based on:  
@@ -40,7 +40,4 @@ The system checks URLs based on:
 ✔️ Shortened URLs (e.g., bit.ly, goo.gl)  
 ✔️ Recently registered domains (<30 days)  
   
- **📜 License**  
-**This project is open-source and available under the [MIT License](LICENSE).**  
-
 **Give it a ⭐ on GitHub if you like this project! 🚀**  
