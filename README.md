@@ -31,6 +31,6 @@ pip install -r requirements.txt
    ```
 2. **Enter a URL** in the input box
 3. **Click 'Check URL'** to analyze
-4. The tool will display whether the URL is safe or suspicious
+4. The tool will display whether the URL is safe or suspicious.
 
 
